@@ -1,0 +1,120 @@
+body{background-color:#125599;
+	font-family: calibri;
+}
+
+#pane{background-color:#ffffff}
+
+#xy{
+	display: inline-block;
+    width: 335px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+	
+}
+
+#hn{
+	display: inline-block;
+    width: 410px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+}
+
+h1{
+	color: yellow;
+	text-decoration: yellow underline;
+}
+
+div,span{
+	color:white;
+}
+
+section{
+	color:white;
+}
+
+#partieA{
+	display: inline-block;
+    width: 335px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+	margin-top:50px;
+	margin-left:-764px;
+}
+
+#partieB{
+	display: inline-block;
+    width: 410px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+	margin-top:50px;
+}
+
+#partieC{
+	display: inline-block;
+    width: 335px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+	margin-left: 805px;
+	margin-top: -474px;
+}
+
+#partieD{
+	display: inline-block;
+    width: 410px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+	margin-left: 1148px;
+	margin-top:-221px;
+}
+
+
+
+
+	
+#Roui,#Rnon{
+display: inline-block;
+    width: 40px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:10px;
+	background-color:white;
+	box-shadow: 0 6px #999;
+}
+	
+#repA,#repB,#affnvtdroite,#repC,#boutondroiteC1,#boutondroiteC2,#affEquat1,#affEquat2,#affEquat12,#affEquata,#affEquatb,#affEquatab,#inter{
+	display: inline-block;
+    width: 190px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:10px;
+	background-color:white;
+	box-shadow: 0 6px #999;
+}	
+	
+#repA3a,#repA3b,#repA1,#repA2,#modequat1,#modequat2{
+display: inline-block;
+    width: 30px;
+    vertical-align: top;
+	border:solid white;
+	border-radius:8px;
+	background-color:white;
+}
+	
+	
+#Roui:active,#inter:active,#Rnon:active,#repA:active,#repB:active,#affnvtdroite:active,#repC:active,#boutondroiteC1:active,#boutondroiteC2:active,#affEquat1:active,#affEquat2:active,#affEquat12:active,#affEquata:active,#affEquatb:active,#affEquatab:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+	
+	
+	
+	
+	
+	
+	

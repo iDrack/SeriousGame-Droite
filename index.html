@@ -1,0 +1,77 @@
+<html><!-- balise de début de la page HTML -->
+
+	<head><!-- balise de début de l'entête -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /><!--les attribus et leurs valeurs indiquent au navigateur le type de codage de caratères à utiliser  -->
+		<title> Droite Quizz </title><!-- place un titre dans l'onglet du navigateur -->
+		<link href="CSS/monFichierCSS.css" type="text/css" rel="stylesheet" media="screen"><!-- permet d'associer à cette page la feuille de style CSS -->
+		<script  type="text/javascript" SRC="javascript/monFichierJavascript.js"> </script><!-- permet d'associer à cette page un programme écrit en javascript -->
+	</head><!-- fin de l'entête -->
+	
+	<body><!-- début du corps de la page -->
+		
+		<canvas id="pane" width="800" height="800"></canvas> 
+		<section id="xy">
+		<div>X:   <span id="x"/></span>	<div>Y:    <span id="y"/></span>
+		</section>
+		
+		<section id="hn">
+			Votre Note :<div id="note"></div>
+			Apréciation :<div id="appr"></div>
+		</section>
+		
+			<article id="partieA"> <h1>Partie A:</h1>
+				<div>Quelle est la valeur du coefficient directeur ?</div><input type="text" id="repA1" value=""></input>
+				
+				<div>Quelle est la valeur de l’ordonnée à l’origine ?</div><input type="text" id="repA2" value=""></input>
+				
+				<div>Etablissez l'équation réduite de cette droite.</div>
+				<input type="text" id="repA3a" value=""></input><span>X+ </span>
+				<input type="text" id="repA3b" value=""></input>
+				<br><br>
+				<input type="button" id="repA" value="Vérifier vos réponses"></input><br><br>
+				
+			</article>
+			
+			
+			<article id="partieB"> <h1>Partie B:</h1>
+				<div>Représenter cette première équation sur le Canvas:</div><div id="Nequat"></div><br>
+				<input type="button" id="affEquat1" value="Afficher le premier point"></input><br><br>
+				<input type="button" id="affEquat2" value="Afficher le deuxième point"></input><br><br>
+				<input type="button" id="affEquat12" value="Afficher la première droite"></input><br><br>
+				<div>Représenter cette deuxiéme équation sur le Canvas::</div><div id="NNequat"></div>
+				<br>
+				<input type="button" id="affEquata" value="Afficher le premier point"></input><br><br>
+				<input type="button" id="affEquatb" value="Afficher le deuxième point"></input><br><br>
+				<input type="button" id="affEquatab" value="Afficher la deuxième droite"></input><br>
+				<br>
+				<div>Sont-elles paralléles ?</div><input type="button" id="Roui" value="Oui"></input><span> </span><input type="button" id="Rnon" value="Non"></input>
+				<br>
+				
+		
+				<br>		
+			</article>
+
+			<article id="partieC"> <h1>Partie C:</h1>
+				<div>Systeme à deux équations:</div>
+				<div id="syst2equa1"></div>				
+				<div id="syst2equa2"></div><br>
+				<div>Modifier le coefficient directeur de l'équation 1.</div><input type="" id="modequat1" value=""></input>
+				<br><br>
+				<div>Modifier le coefficient directeur de l'équation 2.</div><input type="" id="modequat2" value=""></input>
+				<br><br>
+				<div id="interrep"></div>
+				<input type="button" id="boutondroiteC1" value="Tracer les droites"></input><br><br>
+				
+				
+			</article>
+			
+			<article id="partieD"> <h1> Corrections : </h1>
+				<div id="reponseA"></div>
+				<div id="reponseB"></div>
+			</article>
+			
+			
+	
+	</body><!-- fin du corps de la page -->
+
+</html><!-- fin de la page HTML -->
